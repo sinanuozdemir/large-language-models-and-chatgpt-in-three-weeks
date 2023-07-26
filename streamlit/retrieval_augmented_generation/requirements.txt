@@ -1,0 +1,9 @@
+numpy
+torch
+transformers
+sentence-transformers
+streamlit
+openai
+bs4
+requests
+altair<5
