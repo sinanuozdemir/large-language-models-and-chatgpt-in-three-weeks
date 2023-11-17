@@ -1,11 +1,12 @@
-# Import necessary libraries
-import openai  # Library for OpenAI API
-import requests  # Library for making HTTP requests
-import streamlit as st  # Library for creating web apps
-from bs4 import BeautifulSoup  # Library for parsing HTML and XML documents
+# Import required modules
+import os
 
-# Set the OpenAI API key from Streamlit secrets
-openai.api_key = st.secrets["openai_key"]
+import openai  # OpenAI's Python client library
+import streamlit as st  # Streamlit library for creating web apps
+from openai import OpenAI  # New import for OpenAI client
+
+# Instantiate the OpenAI client with the API key from Streamlit secrets
+client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 
 # Define function to communicate with OpenAI's GPT model
@@ -18,7 +19,7 @@ def qa_gpt(question, context, system_prompt=None):
         prompts = [{'role': 'system', 'content': system_prompt}] + prompts
 
     # Send conversation prompts to GPT model and get response
-    chat_completion = openai.ChatCompletion.create(
+    chat_completion = client.chat.completions.create(
         model="gpt-3.5-turbo-16k",
         messages=prompts
     )

@@ -1,17 +1,16 @@
-# Import the necessary modules
-import random  # Standard Python library for generating random numbers
+import os
 
-import openai  # OpenAI's Python client library for calling the OpenAI API
 import streamlit as st  # Streamlit library for creating web apps
+from openai import OpenAI  # New import for OpenAI client
 
-# Set the OpenAI API key from Streamlit secrets, enabling secure API calls to OpenAI
-openai.api_key = st.secrets["openai_key"]
+# Instantiate the OpenAI client with the API key from Streamlit secrets
+client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 
-# Define function for running a conversation with OpenAI
+# Define a function for running a conversation with OpenAI
 def run_prompt_through_openai(system_prompt, user_prompt, model):
-    # Use the OpenAI API to create a ChatCompletion instance, simulating a conversation with the AI
-    chat_completion = openai.ChatCompletion.create(
+    # Use the OpenAI client to create a ChatCompletion instance for the conversation
+    chat_completion = client.chat.completions.create(
         model=model,  # Specify the model to use for the conversation
         messages=[  # Define the messages for the conversation
             {'role': 'system', 'content': system_prompt},  # The initial system message
@@ -20,6 +19,9 @@ def run_prompt_through_openai(system_prompt, user_prompt, model):
     )
     # Extract and return the AI's response from the conversation
     return chat_completion.choices[0].message.content
+
+
+# Rest of your Streamlit app code remains the same...
 
 
 # Set a title for the Streamlit app
