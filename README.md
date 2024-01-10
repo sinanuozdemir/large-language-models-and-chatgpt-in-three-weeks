@@ -4,6 +4,8 @@ Welcome to the "[Large Language Models and ChatGPT in Three Weeks](https://learn
 
 For more, check out my [Expert Playlist](https://learning.oreilly.com/playlists/2953f6c7-0e13-49ac-88e2-b951e11388de)!
 
+Much of the code in these sessions come from my latest book on LLMs: [A Quick Start Guide to LLMs](https://github.com/sinanuozdemir/quick-start-guide-to-llms) so if you're itching for more, check it out and please leave a rating/review to tell me what you thought :)
+
 ## Project Overview
 
 The project is divided into the following sections:
