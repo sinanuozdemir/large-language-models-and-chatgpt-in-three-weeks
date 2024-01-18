@@ -57,6 +57,13 @@ This project contains several Jupyter notebooks each focusing on a specific topi
 
 4. **[Use Cases](./notebooks/use_cases.ipynb)**: In this notebook, we explore various use cases for large language models, providing practical examples of how they can be used in different scenarios.
 
+**BONUS NOTEBOOKS**
+
+- **[BERT vs ChatGPT](./notebooks/BERT vs GPT for CLF.ipynb)**: In this notebook, I fine-tune a BERT model for classification and showcase some metrics compared to ChatGPT
+
+- **[Fine-tuning Classification](./notebooks/fine_tuned_classification_sentiment.ipynb)**: In this notebook, I fine tune some OpenAI models to an open dataset
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

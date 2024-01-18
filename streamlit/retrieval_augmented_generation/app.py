@@ -2,7 +2,9 @@
 import os
 
 import openai  # OpenAI's Python client library
+import requests
 import streamlit as st  # Streamlit library for creating web apps
+from bs4 import BeautifulSoup  # Beautiful Soup library for web scraping
 from openai import OpenAI  # New import for OpenAI client
 
 # Instantiate the OpenAI client with the API key from Streamlit secrets
