@@ -33,14 +33,14 @@ system_prompt = "You are a Twitter bot that helps people with their tweets"
 # Create a text input field for the user prompt, with a default value
 user_input = st.text_input("Description of a tweet you want", value="I need a tweet about GPT-4")
 
-user_prompt = '''
-Input: I need a tweet about GPT-4
+user_prompt = '''Input: I need a tweet about GPT-4
 Tweet: "Wow! I just read about GPT-4 and it's amazing! I can't wait to see what it can do! #gpt4 #ai #machinelearning"
 Input: Dogs in the summer and avoiding fleas and ticks
 Tweet: "I love my dog, but I hate the fleas and ticks that come with him. I'm going to try to avoid them this summer."
 Input: San Francisco's Golden Gate Bridge
 Tweet: "I love the Golden Gate Bridge. It's a beautiful sight to see. I can't wait to go back to San Francisco."
-Input: {user_input}'''  # This is where the user's input will be added
+Input: {user_input}
+Tweet:'''  # This is where the user's input will be added
 
 # Create a button for executing the AI conversation
 if st.button("Run"):
@@ -48,5 +48,8 @@ if st.button("Run"):
     # If the button is clicked, run the user and system prompts through the chosen AI model
     response = run_prompt_through_openai(system_prompt, user_prompt)
 
-    # Write the AI's response in the app
-    st.write(f"# System Prompt\n{system_prompt}\n# User Prompt\n{user_prompt}\n# AI Response\n{response}")
+    # Write the AI's response in the app.
+    st.markdown(f"```\n# System Prompt\n---\n{system_prompt}\n```")
+    st.markdown(f"```\n# User Prompt\n---\n{user_prompt}\n```")
+    st.markdown(f"```\n# AI Response\n---\n{response}\n```")
+
