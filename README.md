@@ -57,6 +57,8 @@ This project contains several Jupyter notebooks each focusing on a specific topi
 
 4. **[Use Cases](./notebooks/use_cases.ipynb)**: In this notebook, we explore various use cases for large language models, providing practical examples of how they can be used in different scenarios.
 
+5. **[Retrieval Augmented Generation (RAG)](./notebooks/rag_bot.ipynb)**: In this notebook, I build a simplt RAG bot to use real-time data using a well-constructed prompt
+
 **BONUS NOTEBOOKS**
 
 - **[BERT vs ChatGPT](./notebooks/BERT%20vs%20GPT%20for%20CLF.ipynb)**: In this notebook, I fine-tune a BERT model for classification and showcase some metrics compared to ChatGPT.
