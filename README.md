@@ -59,6 +59,8 @@ This project contains several Jupyter notebooks each focusing on a specific topi
 
 5. **[Retrieval Augmented Generation (RAG)](./notebooks/rag_bot.ipynb)**: In this notebook, I build a simplt RAG bot to use real-time data using a well-constructed prompt
 
+6. [AI Agents](https://colab.research.google.com/drive/14jAlW2E7ya_aS1M6eUsuHciC1WvLfIif?usp=sharing): A simple application of an AI agent who can google things, create images, and check a paper stock portfolio
+
 **BONUS NOTEBOOKS**
 
 - **[BERT vs ChatGPT](./notebooks/BERT%20vs%20GPT%20for%20CLF.ipynb)**: In this notebook, I fine-tune a BERT model for classification and showcase some metrics compared to ChatGPT.
