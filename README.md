@@ -63,11 +63,11 @@ This project contains several Jupyter notebooks each focusing on a specific topi
 
 **BONUS NOTEBOOKS**
 
-- **[BERT vs ChatGPT](./notebooks/BERT%20vs%20GPT%20for%20CLF.ipynb)**: In this notebook, I fine-tune a BERT model for classification and showcase some metrics compared to ChatGPT.
+- **[LLM Token Embeddings](./notebooks/LLM%20Embeddings.ipynb)**: In this notebook, I look at the token embeddings of BERT and GPT2 to show how the masked/non-masked attention systems affect the embeddings based on their position in a document.
 
-- **[LLM Embeddings](./notebooks/LLM%20Embeddings.ipynb)**: In this notebook, I look at the token embeddings of BERT and GPT2 to show how the masked/non-masked attention systems affect the embeddings based on their position in a document.
+- **[Fine-tuning BERT for Classification](./notebooks/bert_app_review.ipynb)**: In this notebook, I fine-tune a BERT model for classification and showcase some metrics compared to ChatGPT.
 
-- **[Fine-tuning Classification](./notebooks/fine_tuned_classification_sentiment.ipynb)**: In this notebook, I fine tune some OpenAI models to an open dataset.
+- **[Fine-tuning OpenAI for Classification](./notebooks/openai_app_review_fine_tuning.ipynb)**: In this notebook, I fine tune some OpenAI models to an open dataset.
 
 
 ## Contributing
