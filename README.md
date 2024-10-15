@@ -69,7 +69,7 @@ This project contains several Jupyter notebooks each focusing on a specific topi
 
 - **[Fine-tuning OpenAI for Classification](./notebooks/openai_app_review_fine_tuning.ipynb)**: In this notebook, I fine tune some OpenAI models to an open dataset.
 
-- **[Fine-tuning embeddings]([./notebooks/BERT%20vs%20GPT%20for%20CLF.ipynb](https://colab.research.google.com/drive/1FOr9hgMEcTa8UJJSuKjoHpohVb-Qz-FJ?usp=sharing))**: In this notebook, I fine-tune an embedding model to compete with OpenAI's embeddings out of the box.
+- **[Fine-tuning embeddings](https://colab.research.google.com/drive/1FOr9hgMEcTa8UJJSuKjoHpohVb-Qz-FJ?usp=sharing)**: In this notebook, I fine-tune an embedding model to compete with OpenAI's embeddings out of the box.
 
 
 ## Contributing
