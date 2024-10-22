@@ -57,9 +57,13 @@ This project contains several Jupyter notebooks each focusing on a specific topi
 
 4. **[Use Cases](./notebooks/use_cases.ipynb)**: In this notebook, we explore various use cases for large language models, providing practical examples of how they can be used in different scenarios.
 
-5. **[Retrieval Augmented Generation (RAG)](./notebooks/rag_bot.ipynb)**: In this notebook, I build a simplt RAG bot to use real-time data using a well-constructed prompt
+5. **Retrieval Augmented Generation (RAG)**
+	- **[RAG - Retrieval](notebooks/RAG_Retrieval.ipynb)**: An introduction to vector databases, embeddings, and retrieval
+	- **[RAG - Generation](notebooks/RAG_Generate.ipynb)**: Building a RAG chatbot using our semantic search retrieval system
+	- **[Advanced - GraphRAG](notebooks/GraphRAG.ipynb)** - A simple introduction to GraphRAG (RAG using a knowledge graph) using Neo4J, Cohere's Re-Rank, GPT-4o, and a touch of Langchain
 
-6. [AI Agents](https://colab.research.google.com/drive/14jAlW2E7ya_aS1M6eUsuHciC1WvLfIif?usp=sharing): A simple application of an AI agent who can google things, create images, and check a paper stock portfolio
+
+6. **[AI Agents](https://colab.research.google.com/drive/14jAlW2E7ya_aS1M6eUsuHciC1WvLfIif?usp=sharing)**: A simple application of an AI agent who can google things, create images, and check a paper stock portfolio
 
 **BONUS NOTEBOOKS**
 
