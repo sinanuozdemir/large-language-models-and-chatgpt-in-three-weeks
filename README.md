@@ -55,6 +55,8 @@ This project contains several Jupyter notebooks each focusing on a specific topi
 
 3. **[Cost Projecting](./notebooks/cost_projecting.ipynb)**: This notebook focuses on understanding and calculating the costs involved in using large language models. It includes functions to calculate the cost of API calls based on the token usage by different models.
 
+4. **[OpenRouter + Prompt Caching](./notebooks/OpenRouter_and_prompt_caching.ipynb)**: Using OpenRouter to be more model/provider agnostic plus a tutorial on prompt caching
+
 4. **[Use Cases](./notebooks/use_cases.ipynb)**: In this notebook, we explore various use cases for large language models, providing practical examples of how they can be used in different scenarios.
 
 5. **Retrieval Augmented Generation (RAG)**
