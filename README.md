@@ -69,6 +69,8 @@ This project contains several Jupyter notebooks each focusing on a specific topi
 
 6. **[AI Agents](https://colab.research.google.com/drive/14jAlW2E7ya_aS1M6eUsuHciC1WvLfIif?usp=sharing)**: A simple application of an AI agent who can google things, create images, and check a paper stock portfolio
 
+	-  **[ReAct Agents in LangGraph + MCP + Tool Positional Bias](notebooks/LangGraph_React%20-%20MCP%20+%20Tool%20Selection.ipynb)** - Integrating MCP with a ReAct Agent in Langgraph + Testing for Positional Bias
+
 **BONUS NOTEBOOKS**
 
 - **[LLM Token Embeddings](./notebooks/LLM%20Embeddings.ipynb)**: In this notebook, I look at the token embeddings of BERT and GPT2 to show how the masked/non-masked attention systems affect the embeddings based on their position in a document.
