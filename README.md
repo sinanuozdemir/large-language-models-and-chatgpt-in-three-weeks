@@ -1,6 +1,6 @@
 # Large Language Models and ChatGPT in Three Weeks
 
-Welcome to the "[Large Language Models and ChatGPT in Three Weeks](https://learning.oreilly.com/live-events/large-language-models-and-chatgpt-in-3-weeks/0636920090988/)" code repository! In this repo, we dive deep into understanding and utilizing large language models, with a specific focus on OpenAI's GPT-3, GPT-3.5-turbo (ChatGPT), and GPT-4.
+Welcome to the "[Large Language Models and ChatGPT in Three Weeks](https://learning.oreilly.com/live-events/large-language-models-and-chatgpt-in-3-weeks/0636920090988/)" code repository! In this repo, we dive deep into understanding and utilizing large language models, with a specific focus on OpenAI's and Anthropic's family of models.
 
 For more, check out my [Expert Playlist](https://learning.oreilly.com/playlists/2953f6c7-0e13-49ac-88e2-b951e11388de)!
 
