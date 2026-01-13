@@ -1,6 +1,6 @@
 # Large Language Models and ChatGPT in Three Weeks
 
-Welcome to the "[Large Language Models and ChatGPT in Three Weeks](https://learning.oreilly.com/live-events/large-language-models-and-chatgpt-in-3-weeks/0636920090988/)" code repository! In this repo, we dive deep into understanding and utilizing large language models, with a specific focus on OpenAI's GPT-3, GPT-3.5-turbo (ChatGPT), and GPT-4.
+Welcome to the "[Large Language Models and ChatGPT in Three Weeks](https://learning.oreilly.com/live-events/large-language-models-and-chatgpt-in-3-weeks/0636920090988/)" code repository! In this repo, we dive deep into understanding and utilizing large language models, with a specific focus on OpenAI's and Anthropic's family of models.
 
 For more, check out my [Expert Playlist](https://learning.oreilly.com/playlists/2953f6c7-0e13-49ac-88e2-b951e11388de)!
 
@@ -65,15 +65,19 @@ This project contains several Jupyter notebooks each focusing on a specific topi
 	- **[Advanced - GraphRAG](notebooks/GraphRAG.ipynb)** - A simple introduction to GraphRAG (RAG using a knowledge graph) using Neo4J, Cohere's Re-Rank, GPT-4o, and a touch of Langchain
 	- **[Evaluating LLMs with Rubrics](https://colab.research.google.com/drive/1DeVYrdNb3FlQQLeBqGPFkx6roZaPwVRy?usp=sharing)** - Exploring a rubric prompt to evaluate generative output
 	- **[CLIP-based Stock Image Search](https://colab.research.google.com/drive/1aUz0FKQDSAyXyhRyvkkRsSy7S30mpRJc?usp=sharing)**: Using CLIP to search through a library of images
-  
+     - **[Workflow Evaluation](https://github.com/sinanuozdemir/oreilly-ai-agents/blob/main/notebooks/LangGraph_Workfow_Eval.ipynb)**  
 
 6. **[AI Agents](https://colab.research.google.com/drive/14jAlW2E7ya_aS1M6eUsuHciC1WvLfIif?usp=sharing)**: A simple application of an AI agent who can google things, create images, and check a paper stock portfolio
 
-**BONUS NOTEBOOKS**
+	-  **[ReAct Agents in LangGraph + MCP + Tool Positional Bias](https://github.com/sinanuozdemir/oreilly-ai-agents/blob/main/notebooks/LangGraph_React%20-%20MCP%20+%20Tool%20Selection.ipynb)** - Integrating MCP with a ReAct Agent in Langgraph + Testing for Positional Bias
+
+**ADVANCED NOTEBOOKS**
 
 - **[LLM Token Embeddings](./notebooks/LLM%20Embeddings.ipynb)**: In this notebook, I look at the token embeddings of BERT and GPT2 to show how the masked/non-masked attention systems affect the embeddings based on their position in a document.
 
 - **[Fine-tuning BERT for Classification](./notebooks/bert_app_review.ipynb)**: In this notebook, I fine-tune a BERT model for classification and showcase some metrics compared to ChatGPT.
+
+	- **[Fine-tuning Product Feedback](https://colab.research.google.com/drive/1xjN8LrU0ceiQl6avxkphC5iF1yP2Jv5K?usp=sharing)** - Comparing a prompt vs a fine-tuned BERT model classifying product feedback
 
 - **[Fine-tuning OpenAI for Classification](./notebooks/openai_app_review_fine_tuning.ipynb)**: In this notebook, I fine tune some OpenAI models to an open dataset.
 
