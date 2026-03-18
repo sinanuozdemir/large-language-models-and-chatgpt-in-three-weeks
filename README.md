@@ -75,7 +75,7 @@ This project contains several Jupyter notebooks each focusing on a specific topi
 
 - **[LLM Token Embeddings](./notebooks/LLM%20Embeddings.ipynb)**: In this notebook, I look at the token embeddings of BERT and GPT2 to show how the masked/non-masked attention systems affect the embeddings based on their position in a document.
 
-- **[Fine-tuning BERT for Classification](./notebooks/bert_app_review.ipynb)**: In this notebook, I fine-tune a BERT model for classification and showcase some metrics compared to ChatGPT.
+- **[Fine-tuning BERT for Classification](./notebooks/bert_app_review.ipynb)** ([Colab](https://colab.research.google.com/drive/1z2sMZ_A05_VGYqpHBgabvcV0V4INYhQ4?usp=sharing)): In this notebook, I fine-tune a BERT model for classification and showcase some metrics compared to ChatGPT.
 
 	- **[Fine-tuning Product Feedback](https://colab.research.google.com/drive/1xjN8LrU0ceiQl6avxkphC5iF1yP2Jv5K?usp=sharing)** - Comparing a prompt vs a fine-tuned BERT model classifying product feedback
 
