@@ -42,6 +42,8 @@ Ensure you have set the following environment variables with your API keys or to
 OPENAI_API_KEY: Your OpenAI API key.
 COHERE_API_KEY: Your Cohere API key (if using Cohere's services).
 HF_TOKEN: Your Hugging Face token (if using Hugging Face's services).
+OPENROUTER_API_KEY: For notebooks that call models through OpenRouter (for example LangGraph Basics and Tools and ReAct Agents).
+SERPAPI_API_KEY: For web search tooling in Tools and ReAct Agents (and similar tool-calling examples).
 ```
 You're all set to explore the notebooks!
 
@@ -57,9 +59,9 @@ This project contains several Jupyter notebooks each focusing on a specific topi
 
 4. **[OpenRouter + Prompt Caching](./notebooks/OpenRouter_and_prompt_caching.ipynb)**: Using OpenRouter to be more model/provider agnostic plus a tutorial on prompt caching
 
-4. **[Use Cases](./notebooks/use_cases.ipynb)**: In this notebook, we explore various use cases for large language models, providing practical examples of how they can be used in different scenarios.
+5. **[Use Cases](./notebooks/use_cases.ipynb)**: In this notebook, we explore various use cases for large language models, providing practical examples of how they can be used in different scenarios.
 
-5. **Retrieval Augmented Generation (RAG)**
+6. **Retrieval Augmented Generation (RAG)**
 	- **[RAG - Retrieval](notebooks/RAG_Retrieval.ipynb)**: An introduction to vector databases, embeddings, and retrieval
 	- **[RAG - Generation](notebooks/RAG_Generate.ipynb)**: Building a RAG chatbot using our semantic search retrieval system
 	- **[Advanced - GraphRAG](notebooks/GraphRAG.ipynb)** - A simple introduction to GraphRAG (RAG using a knowledge graph) using Neo4J, Cohere's Re-Rank, GPT-4o, and a touch of Langchain
@@ -67,9 +69,13 @@ This project contains several Jupyter notebooks each focusing on a specific topi
 	- **[CLIP-based Stock Image Search](https://colab.research.google.com/drive/1aUz0FKQDSAyXyhRyvkkRsSy7S30mpRJc?usp=sharing)**: Using CLIP to search through a library of images
      - **[Workflow Evaluation](https://github.com/sinanuozdemir/oreilly-ai-agents/blob/main/notebooks/LangGraph_Workfow_Eval.ipynb)**  
 
-6. **[AI Agents](https://colab.research.google.com/drive/14jAlW2E7ya_aS1M6eUsuHciC1WvLfIif?usp=sharing)**: A simple application of an AI agent who can google things, create images, and check a paper stock portfolio
+7. **[AI Agents](https://colab.research.google.com/drive/14jAlW2E7ya_aS1M6eUsuHciC1WvLfIif?usp=sharing)**: A simple application of an AI agent who can google things, create images, and check a paper stock portfolio
 
-	-  **[ReAct Agents in LangGraph + MCP + Tool Positional Bias](https://github.com/sinanuozdemir/oreilly-ai-agents/blob/main/notebooks/LangGraph_React%20-%20MCP%20+%20Tool%20Selection.ipynb)** - Integrating MCP with a ReAct Agent in Langgraph + Testing for Positional Bias
+	- **[LangGraph Basics](./notebooks/langgraph_basics.ipynb)**: Foundational LangGraph—`StateGraph` and `TypedDict`, the `add_messages` reducer, conditional routing, checkpoints for memory, and graph visualization.
+
+	- **[Tools and ReAct Agents](./notebooks/tools_and_agents.ipynb)**: Defining tools with LangChain, a prebuilt ReAct agent via `create_agent`, building ReAct manually with `StateGraph`, and MCP (Model Context Protocol) for external tools.
+
+	- **[(Advanced) Agents in LangGraph + MCP + Tool Positional Bias](https://github.com/sinanuozdemir/oreilly-ai-agents/blob/main/notebooks/LangGraph_React%20-%20MCP%20+%20Tool%20Selection.ipynb)** - Integrating MCP with a ReAct Agent in Langgraph + Testing for Positional Bias
 
 **ADVANCED NOTEBOOKS**
 
