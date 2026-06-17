@@ -79,6 +79,16 @@ This project contains several Jupyter notebooks each focusing on a specific topi
 
 	- **[(Advanced) Agents in LangGraph + MCP + Tool Positional Bias](https://github.com/sinanuozdemir/oreilly-ai-agents/blob/main/notebooks/LangGraph_React%20-%20MCP%20+%20Tool%20Selection.ipynb)** - Integrating MCP with a ReAct Agent in Langgraph + Testing for Positional Bias
 
+9. **Benchmarking**
+
+	- **[Benchmarking Llama 3.2 Instruct on MMLU and Embedders on MTEB](https://colab.research.google.com/drive/1zDCqXc7vHoZilHVe3y2lYyTmSUSe6bh3?usp=sharingb)** 
+	
+	
+		- [Follow-up Evaluating Llama 3.2 non-instruct on MMLU](https://colab.research.google.com/drive/1aMy19Ikyody9CGyn42K3E_DQwLScL0Ek?usp=sharing)
+
+		- [Evaluating Llama 3.1 vs Mistral on Truthful Q/A](https://github.com/sinanuozdemir/quick-start-guide-to-llms/blob/main/notebooks/12_llm_gen_eval.ipynb) -
+
+
 **ADVANCED NOTEBOOKS**
 
 - **[LLM Token Embeddings](./notebooks/LLM%20Embeddings.ipynb)**: In this notebook, I look at the token embeddings of BERT and GPT2 to show how the masked/non-masked attention systems affect the embeddings based on their position in a document.
